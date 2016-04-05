@@ -1,6 +1,6 @@
 require 'date'
 require 'rspec'
-  require_relative '../config/application'
+require_relative '../config/application'
 
 
 describe User, "#name and #age" do
@@ -103,7 +103,7 @@ describe User, "advanced validations" do
       :birthday => Date.new(1990,5,2),
       :gender => 'male',
       :email => 'fer@codea.mx',
-      :phone => '(456) 435-3456 x4657'
+      :phone => '(456) 435-3456' #x4657'
     )
   end
 
